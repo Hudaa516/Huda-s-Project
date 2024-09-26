@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "gilroy";
+    font-weight: 700;
+}
+
+aside {
+    border-radius: 2px;
+    background-color: #f7f7f8;
+    font-family: "gilroy";
+
+}
+
+#logo {
+    width: 50px;
+    height: 10vh;
+    margin: 10px;
+
+}
+
+li {
+    list-style-type: none;
+    border: none;
+
+}
+
+#btns button {
+    background-color: #f7f7f8;
+    border: none;
+    border-radius: 4px;
+    font-family: "gilroy";
+    margin: 10px;
+
+
+}
+
+#btns button:hover {
+    background-color: #ffca40;
+}
+
+
+#choices .ul .lu {
+    border: none;
+}
+
+#otherbtns button {
+    background-color: #f7f7f8;
+    border: none;
+    border-radius: 4px;
+    font-family: "gilroy";
+    text-align: left;
+    direction: ltr;
+    margin: 10px;
+
+}
+
+#otherbtns button:hover {
+    background-color: #ffca40;
+}
+
+#wok .card {
+    text-align: center;
+    font-weight: 700;
+    border: none;
+    border-radius: 80px;
+
+}
+
+.card img {
+    transition: 0.3s ease-out;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+
+}
+
+.card:hover {
+    opacity: 0.7;
+    background-color: #ffca40;
+    transform: scale(0.9);
+}
+.card p {
+    color: #ffca40;
+}
